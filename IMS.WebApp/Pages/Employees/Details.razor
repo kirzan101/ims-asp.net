@@ -1,0 +1,57 @@
+﻿@page "/employees/details/{id:int}"
+
+@using IMS.Shared.Models;
+@using IMS.Shared.ViewModels.Pagination;
+@using IMS.Shared.ViewModels.Requests;
+@using IMS.WebApp.Helpers;
+@inject NavigationManager NavigationManager
+@inject EmployeeHelper employeeHelper
+
+<PageTitle>Employees | Detail</PageTitle>
+
+<div class="row">
+    <div class="col-lg-9">
+        <h3>Update</h3>
+    </div>
+    <div class="col-lg-3 text-right">
+        <a class="btn btn-secondary btn-sm" href="/employees" role="button">Go Back To Employee</a>
+    </div>
+</div>
+
+<EditForm Model="@Employee">
+    <div class="form-group">
+        <label>First Name</label>
+        <InputText class="form-control-plaintext" @bind-Value="Employee.FirstName" />
+    </div>
+    <div class="form-group">
+        <label>Middle Name</label>
+        <InputText class="form-control-plaintext" @bind-Value="Employee.MiddleName" />
+    </div>
+    <div class="form-group">
+        <label>Last Name</label>
+        <InputText class="form-control-plaintext" @bind-Value="Employee.LastName" />
+    </div>
+    <div class="form-group">
+        <label>Mobile Number</label>
+        <InputText class="form-control-plaintext" @bind-Value="Employee.MobileNumber" />
+    </div>
+    <div class="form-group">
+        <label>Designation</label>
+        <InputText class="form-control-plaintext" @bind-Value="Employee.Designation" />
+    </div>
+    <div class="form-group">
+        <label>Branch</label>
+        <InputText class="form-control-plaintext" @bind-Value="Employee.Branch" />
+    </div>
+</EditForm>
+
+@code {
+    PagedQueryDTO dto = new PagedQueryDTO();
+    public Employee Employee { get; set; } = new Employee();
+    public EmployeeDTO EmployeeDTO { get; set; } = new EmployeeDTO();
+
+    [Parameter]
+    public int Id { get; set; }
+
+    protected override async Task OnInitializedAsync() => Employee = await employeeHelper.GetEmployeeById(Id);
+}

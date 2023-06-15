@@ -1,0 +1,12 @@
+C:\Users\ronro\OneDrive\Desktop\Christian Forbiden Files\ASP.net\IMS\IMS.Shared\bin\Debug\net6.0\IMS.Shared.deps.json
+C:\Users\ronro\OneDrive\Desktop\Christian Forbiden Files\ASP.net\IMS\IMS.Shared\bin\Debug\net6.0\IMS.Shared.dll
+C:\Users\ronro\OneDrive\Desktop\Christian Forbiden Files\ASP.net\IMS\IMS.Shared\bin\Debug\net6.0\IMS.Shared.pdb
+C:\Users\ronro\OneDrive\Desktop\Christian Forbiden Files\ASP.net\IMS\IMS.Shared\obj\Debug\net6.0\IMS.Shared.csproj.AssemblyReference.cache
+C:\Users\ronro\OneDrive\Desktop\Christian Forbiden Files\ASP.net\IMS\IMS.Shared\obj\Debug\net6.0\IMS.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ronro\OneDrive\Desktop\Christian Forbiden Files\ASP.net\IMS\IMS.Shared\obj\Debug\net6.0\IMS.Shared.AssemblyInfoInputs.cache
+C:\Users\ronro\OneDrive\Desktop\Christian Forbiden Files\ASP.net\IMS\IMS.Shared\obj\Debug\net6.0\IMS.Shared.AssemblyInfo.cs
+C:\Users\ronro\OneDrive\Desktop\Christian Forbiden Files\ASP.net\IMS\IMS.Shared\obj\Debug\net6.0\IMS.Shared.csproj.CoreCompileInputs.cache
+C:\Users\ronro\OneDrive\Desktop\Christian Forbiden Files\ASP.net\IMS\IMS.Shared\obj\Debug\net6.0\IMS.Shared.dll
+C:\Users\ronro\OneDrive\Desktop\Christian Forbiden Files\ASP.net\IMS\IMS.Shared\obj\Debug\net6.0\refint\IMS.Shared.dll
+C:\Users\ronro\OneDrive\Desktop\Christian Forbiden Files\ASP.net\IMS\IMS.Shared\obj\Debug\net6.0\IMS.Shared.pdb
+C:\Users\ronro\OneDrive\Desktop\Christian Forbiden Files\ASP.net\IMS\IMS.Shared\obj\Debug\net6.0\ref\IMS.Shared.dll
